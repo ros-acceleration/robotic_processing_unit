@@ -18,15 +18,14 @@ The Robotic Processing Unit (`RPU`[^2]) is a <ins>robot-specific processing unit
 
 ## Sponsoring the project
 
-<a href="http://accelerationrobotics.com"><img src="imgs/accelerationrobotics_logo.png" align="left" hspace="8" vspace="2" width="200"></a>
+<a href="http://accelerationrobotics.com"><img src="imgs/accelerationrobotics_logo.png" align="right" hspace="8" vspace="2" width="200"></a>
 
-
-*This project is sponsored by [Acceleration Robotics](https://accelerationrobotics.com/) and driven by the [ROS 2 Hardware Acceleration Working Group](https://github.com/ros-acceleration). We are open to additional sponsorships and collaborations. [Contact here for sponsoring](mailto:victor@accelerationrobotics.com) the Robotic Processing Unit (`RPU`) project. For commercial support regarding Robotic Processing Units, [get commercial support here](https://accelerationrobotics.com/start-buying.php). If you're looking to buy a fully assembled unit, [buy a Robotic Processing Unit here](#buy-a-robotic-processing-unit)*. Or instead, [build your own Robot Processing Unit here](#build-a-robotic-processing-unit).
+*This project is sponsored by [Acceleration Robotics](https://accelerationrobotics.com/) and driven by the [ROS 2 Hardware Acceleration Working Group](https://github.com/ros-acceleration). We are open to additional sponsorships and collaborations. [Contact here for sponsoring](mailto:victor@accelerationrobotics.com) the Robotic Processing Unit (`RPU`) project. For commercial support regarding Robotic Processing Units, [get commercial support here](https://accelerationrobotics.com/start-buying.php). If you're looking to buy a fully assembled unit, [buy a Robotic Processing Unit here](#buy-a-robotic-processing-unit). Or instead, [build your own Robot Processing Unit here](#build-a-robotic-processing-unit)*.
 
 ## Goal
-The goal of this project is to provide robotic architects a reference hardware blueprint for building hardware accelerated robotic brains. To do so, the project leverages *existing off-the-shelf* hardware acceleration development platforms will be used to prototype a robot-specific processing unit that performs best when it comes to ROS 2 and robot computational graphs.
+Robotic Processing Units (RPUs) are robot brains, processing units for robots that map efficiently robot behaviors (programmed as ROS computational graphs) to underlying compute resources. They empower robots with the ability to <ins>react faster</ins>, consume <ins>less power</ins>, and deliver <ins>additional real-time</ins> capabilities.
 
-Robotic Processing Units (RPUs) are robot brains, processing units for robots that map efficiently robot behaviors (programmed as ROS computational graphs) to underlying compute resources. They empower robots with the ability to react faster, consume less power, and deliver additional real-time capabilities. 
+The goal of this project is to provide robotic architects a reference hardware blueprint for building hardware accelerated robotic brains. To do so, the project leverages *existing off-the-shelf* hardware acceleration development platforms will be used to prototype a robot-specific processing unit that performs best when it comes to ROS 2 and robot computational graphs.
 
 #### Vision
 The vision is that Robotic Processing Units will empower robots with the ability to react faster (*lower latency*, higher throughput), consume less power, and deliver additional real-time capabilities with their custom compute architectures that fit best the usual robotics pipelines. This includes tasks across *sensing, perception, mapping, localization, motion control, low-level control and actuation*.
