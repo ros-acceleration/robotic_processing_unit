@@ -1,6 +1,6 @@
 # Robotic Processing Unit
 
-The Robotic Processing Unit (`RPU`) is a <ins>robot-specific processing unit that uses hardware acceleration and maps robotics computations efficiently to CPUs, FPGAs and GPUs to obtain best performance</ins>. In particular, it specializes in improving the **Robot Operating System (ROS 2)** related robot computational graphs on underlying compute resources.
+The Robotic Processing Unit (`RPU`[^2]) is a <ins>robot-specific processing unit that uses hardware acceleration and maps robotics computations efficiently to its CPUs, FPGAs and GPUs to obtain best performance</ins>. In particular, it specializes in improving the **Robot Operating System (ROS 2)** related robot computational graphs on underlying compute resources.
 
 ![](imgs/robotic_processing_unit.png)
 
@@ -25,6 +25,8 @@ The Robotic Processing Unit (`RPU`) is a <ins>robot-specific processing unit tha
 
 ## Goal
 The goal of this project is to provide robotic architects a reference hardware blueprint for building hardware accelerated robotic brains. To do so, the project leverages *existing off-the-shelf* hardware acceleration development platforms will be used to prototype a robot-specific processing unit that performs best when it comes to ROS 2 and robot computational graphs.
+
+Robotic Processing Units (RPUs) are robot brains, processing units for robots that map efficiently robot behaviors (programmed as ROS computational graphs) to underlying compute resources. They empower robots with the ability to react faster, consume less power, and deliver additional real-time capabilities. 
 
 #### Vision
 The vision is that Robotic Processing Units will empower robots with the ability to react faster (*lower latency*, higher throughput), consume less power, and deliver additional real-time capabilities with their custom compute architectures that fit best the usual robotics pipelines. This includes tasks across *sensing, perception, mapping, localization, motion control, low-level control and actuation*.
@@ -75,11 +77,11 @@ You can build your own Robotic Processing Unit by purchasing each individual par
 | `4` | ![](imgs/4_robotic_processing_unit.png) | Screw the `PYBE30-Q24-S12-T` DC-DC converter, the `AGX orin` and the `KR260` to the `Base`. Use 10x `M3 bolts` (ISO7046) and 10x `M3 nuts` (DIN934). |
 | `5` | ![](imgs/5_robotic_processing_unit.png) | Finally, fix the 4 holes of the cover and join the base and cover with 4x `M5 bolts` (ISO7046). |
 
-
-[^1]: You'll need to unscrew AGX Orin's 4 outer bolts and extract aluminum lower support to solder it properly.
 ## Buy a Robotic Processing Unit
 
-[ROBOTCORE®](https://accelerationrobotics.com/robotcore.php) is a commercial solution of a robot-specific processing unit that helps map Robot Operating System (ROS) computational graphs to its CPUs, GPU and FPGA efficiently to obtain best performance. It empowers robots with the ability to react faster, consume less power, and deliver additional real-time capabilities. ROBOTCORE can be purchased [here](https://accelerationrobotics.com/robotcore.php). With ROBOTCORE®, Acceleration Robotics offers also the following complements:
+[ROBOTCORE®](https://accelerationrobotics.com/robotcore.php) is a commercial solution of a robot-specific processing unit that helps map Robot Operating System (ROS) computational graphs to its CPUs, GPU and FPGA efficiently to obtain best performance. It empowers robots with the ability to react faster, consume less power, and deliver additional real-time capabilities. ROBOTCORE can be purchased [here](https://accelerationrobotics.com/robotcore.php).
+
+With ROBOTCORE®, Acceleration Robotics offers also the following  ROS 2 API-compatible hardware acceleration tools and robot Intellectual Property (IP) cores (`robot cores`):
 
 - [ROBOTCORE® `Framework`](https://accelerationrobotics.com/robotcore-framework.php), a hardware acceleration framework for ROS and ROS 2.
 - [ROBOTCORE® `Cloud`](https://accelerationrobotics.com/robotcore-cloud.php), tools to speed-up ROS 2 graphs with the cloud, and in the cloud.
@@ -92,3 +94,7 @@ You can build your own Robotic Processing Unit by purchasing each individual par
 ## Commercial Support
 
 For commercial support while building on top of the Robotic Processing Unit project, [reach out here](https://accelerationrobotics.com/start-buying.php).
+
+[^1]: You'll need to unscrew AGX Orin's 4 outer bolts and extract aluminum lower support to solder it properly.
+
+[^2]: We're very aware that the RPU acronym is overloaded and also used to refer to other types of processing units including *Remote Processing Unit*, *Ray Processing Unit*, *Real-time Processing Unit*, *Radio Processing Unit*, *Regional Processing Unit* or *RAID Processing Unit*  among others. See [comparison for fun](https://trends.google.com/trends/explore?q=Real-time%20Processing%20Unit,Remote%20Processing%20Unit,Ray%20Processing%20Unit,Radio%20Processing%20Unit,Robotic%20Processing%20Unit).
