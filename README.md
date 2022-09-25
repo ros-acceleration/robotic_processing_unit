@@ -20,7 +20,10 @@ The Robotic Processing Unit (`RPU`[^2]) is a <ins>robot-specific processing unit
 
 <a href="http://accelerationrobotics.com"><img src="imgs/accelerationrobotics_logo.png" align="right" hspace="8" vspace="2" width="200"></a>
 
-*This project is sponsored by [Acceleration Robotics](https://accelerationrobotics.com/) and driven by the [ROS 2 Hardware Acceleration Working Group](https://github.com/ros-acceleration). We are open to additional sponsorships and collaborations. [Contact here for sponsoring](mailto:victor@accelerationrobotics.com) the Robotic Processing Unit (`RPU`) project. For commercial support regarding Robotic Processing Units, [get commercial support here](https://accelerationrobotics.com/start-buying.php). If you're looking to buy a fully assembled unit, [buy a Robotic Processing Unit here](#buy-a-robotic-processing-unit). Or instead, [build your own Robot Processing Unit here](#build-a-robotic-processing-unit)*.
+*This project was originally sponsored by [Acceleration Robotics](https://accelerationrobotics.com/) and driven by the [ROS 2 Hardware Acceleration Working Group](https://github.com/ros-acceleration). We are open to additional sponsorships and collaborations. [Contact here for sponsoring](mailto:victor@accelerationrobotics.com) the Robotic Processing Unit (`RPU`) project. For commercial support regarding Robotic Processing Units, [get commercial support here](https://accelerationrobotics.com/start-buying.php). If you're looking to buy a fully assembled unit, [buy a Robotic Processing Unit here](#buy-a-robotic-processing-unit). Or instead, [build your own Robot Processing Unit here](#build-a-robotic-processing-unit)*.
+
+#### Press coverage
+- [Acceleration Robotics announce and open sources ROBOTCORE®, the first Robotic Processing Unit – specialized in ROS computations](https://news.accelerationrobotics.com/acceleration-robotics-collaborating-with-amd-to-design-next-generation-robotic-compute-architectures-with-ros)
 
 ## Goal
 Robotic Processing Units (RPUs) are robot brains, processing units for robots that map efficiently robot behaviors (programmed as ROS computational graphs) to underlying compute resources. They empower robots with the ability to <ins>react faster</ins>, consume <ins>less power</ins>, and deliver <ins>additional real-time</ins> capabilities.
