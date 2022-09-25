@@ -6,6 +6,7 @@ The Robotic Processing Unit (`RPU`[^2]) is a <ins>robot-specific processing unit
 
 - [Robotic Processing Unit](#robotic-processing-unit)
   - [Sponsoring the project](#sponsoring-the-project)
+      - [Press coverage](#press-coverage)
   - [Goal](#goal)
       - [Vision](#vision)
       - [Milestones](#milestones)
