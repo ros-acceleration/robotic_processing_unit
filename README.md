@@ -45,10 +45,11 @@ The vision is that Robotic Processing Units will empower robots with the ability
     - [x] [`perception_2nodes`](https://github.com/ros-acceleration/acceleration_examples/tree/main/graphs/perception/perception_2nodes)
     - [x] [`perception_3nodes`](https://github.com/ros-acceleration/acceleration_examples/tree/main/graphs/perception/perception_3nodes)
     - [ ] *Maybe consider a more elaborated graph with multi-processing paths involving  more complex CV crunching, e.g. HOG (Histogram of Oriented Gradients)*?
-  - [ ] Navigation
-    - [ ] Still in dicussions, open to feedback.
-- [ ] Partition work into demonstrators, prioritize and execute
-- [ ] (...)
+  - [ ] ~~Navigation~~
+    - [ ] ~~Still in dicussions, open to feedback.~~
+- [x] Partition work into demonstrators, prioritize and execute
+- [x] Disclose an initial hardware reference design of the Robotic Processing Unit (**this repo**)
+- [ ] Disclose benchmarking results and discuss (connected to https://github.com/ros-acceleration/community/issues/10)
 
 ## Build a Robotic Processing Unit
 
